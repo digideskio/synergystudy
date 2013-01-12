@@ -1,0 +1,118 @@
+
+body{
+    background: url('/html/imgs/bg.png');
+}
+
+a.brand{
+  color:#fff !important;
+  
+}
+
+a.brand:hover{
+  color:#718CF8 !important;
+}
+
+  /* About Sub Header
+-------------------------------------------------- */
+.sub-head-image{
+  float:left;
+}
+
+.sub-head-title{
+  float:left;
+  height:30px;
+  margin-left:6px;
+}
+
+.sub-head-title h4{
+  line-height: 30px;
+}
+
+
+
+  /* Navigation-Bar
+-------------------------------------------------- */
+.navbar .brand{
+  font-weight:bold;
+  /*margin-top:3px;*/
+}
+
+.navbar .nav > li > a{
+  color:#fff;
+}
+
+.navbar .nav > li > a:hover{
+  
+}
+
+.navbar-inner{
+  border-bottom:4px solid #718CF8;
+}
+
+
+.navbar-inner li:hover{
+  background-color:#718CF8;
+}
+
+
+  /* Footer
+-------------------------------------------------- */
+.footer{
+  margin-top:30px;
+  border-top: 1px solid #ccc;  
+}
+
+.border{
+  border-top: 1px solid #fff;
+}
+
+.footer p{
+  margin-top:15px;
+}
+
+
+  /* Fonts
+---------------------------------------------------*/
+@font-face{
+  font-family: 'webfont';
+  src: url('/html/fonts/websymbols-regular-webfont.eot');
+  src: url('/html/fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/html/fonts/websymbols-regular-webfont.woff') format('woff'),
+         url('/html/fonts/websymbols-regular-webfont.ttf') format('truetype'),
+         url('/html/fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+}
+
+.websymbols{ 
+  font-family: "webfont";
+}
+
+@font-face{
+    font-family: 'WebIconFonts';
+    src: url('/html/fonts/webiconfonts.eot');
+    src: url('/html/fonts/WebIconFonts.eot?') format('eot'),
+           url('/html/fonts/WebIconFonts.woff') format('woff'),
+           url('/html/fonts/WebIconFonts.ttf') format('truetype');
+}
+
+.iconfonts{
+  font-family: "WebIconFonts";
+}
+
+
+  /* Others
+-------------------------------------------------- */  
+.clear{
+  clear:both;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.red{
+  color:red;
+}
+
+.blue{
+  color:blue;
+}

@@ -1,0 +1,205 @@
+
+h1{
+  margin-top:30px;
+  margin-bottom:15px;
+}
+
+
+ /** graph
+---------------------*/
+#graph-head{
+  margin-top:15px;
+  width:912px;
+  height:28px;
+  border-top:1px solid #ccc;
+  border-left:1px solid #ccc;
+  border-right:1px solid #ccc;
+  border-top-right-radius:4px;
+  border-top-left-radius:4px;
+  padding:8px 13px;
+  background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);/* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);/* FF3.6+ */
+}
+
+#graph{
+  width: 938px;
+  min-height: 498px;
+  /*height:498px;*//*仮*/
+  border:1px solid #ccc;  
+  margin-bottom:40px;
+  background-color:#fff;
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius:4px;
+  overflow: hidden;
+}
+
+#graph-content{
+  padding:15px;
+  width:908px;
+  /*width: 585px;*/
+}
+
+
+ /** letime.php 
+---------------------*/
+.original-table td{
+  padding:15px 10px !important;
+}
+
+.original-table tr:last-child{
+  border-bottom:1px solid #ddd;
+}
+
+.graph-legend{
+  padding:35px 5px 0 5px;
+  width: 328px;
+  float:right;
+}
+
+
+ /** selfreview-graph.php
+---------------------*/
+
+
+ /** comment-graph.php
+---------------------*/
+
+
+ /** goal-graph.php
+---------------------*/
+ 
+ 
+ /** goal-edit
+---------------------*/ 
+#goal h2{
+  margin-bottom: 15px;
+}
+
+#new-goal textarea{
+  width:350px;
+  margin-bottom:25px;
+}
+
+#new-goal #datepicker2{
+  margin-bottom:25px;
+}
+
+.notes{
+  display: block;
+  color:blue;
+  margin-top: -14px;
+  margin-bottom: 15px;
+}
+
+ 
+ /** 学習目標用テーブル
+------------------------------------*/
+#ori-goal-table{
+   width: 750px;
+   box-shadow:0px 0px 7px #EEEEEE;
+   margin-bottom: 70px;
+}
+ 
+#ori-goal-table tbody{
+  border-top:1px solid #ccc;
+  border-right:1px solid #ccc;
+}
+
+#ori-goal-table th{
+  background: -webkit-linear-gradient(top, #F9F9F9 0%,#EAEAEA 100%);/* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, #F9F9F9 0%, #EAEAEA 100%);/* FF3.6+ */
+  background: -o-linear-gradient(top, #F9F9F9 0%, #EAEAEA 100%);/* Opera */
+  border-left:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  font-weight: bold;
+  text-align:center;
+  padding:10px 5px;
+}
+
+#ori-goal-table tr{
+  text-align: center;
+  
+} 
+
+#ori-goal-table td{
+  border-left:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  padding:7px 5px;
+}
+
+ /** table graph
+------------------------------------*/
+.headerRow , .tableRow , .oddTableRow , .hoverTableRow , .selectedTableRow{
+  height:50px;
+}
+tr.headerRow{
+  text-align: center;
+}
+
+/*
+#gr-nextplan-wrap,#gr-goals-wrap{
+  padding:10px;
+}
+*/
+
+.google-visualization-table-table{
+  width:800px !important;
+}
+
+table.google-visualization-table-table{  
+  box-shadow:0px 0px 7px #EEEEEE;
+}
+
+.google-visualization-table-table tbody{
+  border-top:1px solid #ccc;
+  border-right:1px solid #ccc;
+}
+
+td.headerCell{
+  background: -webkit-linear-gradient(top, #F9F9F9 0%,#EAEAEA 100%);/* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, #F9F9F9 0%, #EAEAEA 100%);/* FF3.6+ */
+  background: -o-linear-gradient(top, #F9F9F9 0%, #EAEAEA 100%);/* Opera */
+  border-left:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  font-weight: bold;
+  text-align:center;
+}
+
+td.tableCell{
+  border-left:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  padding:0 5px !important;
+}
+
+.google-visualization-table-sortind{
+  color:#000;
+}
+
+tr.oddTableRow{
+  background-color: #F8F8F8;
+}
+
+tr.hoverTableRow{
+  background-color: #D6E9F8;
+  font-weight: bold;
+}
+
+.google-visualization-table-seq{
+  padding:0 10px !important;
+  color:#000 !important;
+  text-align: center !important;
+}
+
+tr.selectedTableRow{
+  background-color:#ffc0cb;
+  font-weight:bold;
+}
+
+ /** グラフの中で共通のもの
+------------------------------------*/
+#com-cont-wrap h2,#plan-table-wrap h2{
+  margin-bottom:15px;
+}
+
+
+

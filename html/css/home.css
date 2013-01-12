@@ -1,0 +1,470 @@
+
+
+  /* Main-Contents
+-------------------------------------------------- */
+h1,h2,h3{
+  color:#4065f6;
+}
+
+h1{
+  margin-top:30px; 
+  margin-bottom:15px;
+}
+  
+#log-head{
+  margin-top:15px;
+  width:912px;
+  height:28px;
+  border-top:1px solid #ccc;
+  border-left:1px solid #ccc;
+  border-right:1px solid #ccc;
+  border-top-right-radius:4px;
+  border-top-left-radius:4px;
+  padding:8px 13px;
+  background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);/* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);/* FF3.6+ */
+}
+
+#log-box{
+  width:938px;
+  border:1px solid #ccc;
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius:4px;
+  margin-bottom:40px;
+  background-color:#fff;
+}
+
+.down-box{
+  margin-top: 20px;
+}
+
+#log-box p{
+  margin:0 0 2px;
+}
+
+#log-inner{
+  width:888px;
+  /*height:200px;*/
+  padding:25px;
+}
+
+#log-left{
+  margin-left:48px;
+  width: 420px;
+  float: left;
+}
+
+#log-right{
+  width: 420px;
+  float: right;
+}
+
+
+div.radio-group div {
+	position: relative;
+}
+
+div.radio-group input {
+	position: absolute;
+	left: 0px;
+	outline:none;
+}
+
+div.radio-group {
+/*margin-bottom: 100px;*/
+}
+div.radio-group input {
+	display: none;
+}
+div.radio-group label {
+	cursor: pointer;
+	padding: 5px 10px;
+	float: left;
+	border: solid 1px #aaa;
+	margin-left: -1px;
+	background: #eee;
+	background-image: -moz-linear-gradient(top, #F6F6F6, #ccc);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#F6F6F6), to(#ccc));
+	-moz-box-shadow: 2px 2px 6px #ddd;
+	-webkit-box-shadow: 2px 2px 6px #ddd;
+	text-shadow: 1px 1px 0px #fff;
+}
+div.radio-group div:first-child label {
+	-webkit-border-top-left-radius: 7px;
+	-webkit-border-bottom-left-radius: 7px;
+	-moz-border-radius-topleft: 7px;
+	-moz-border-radius-bottomleft: 7px;
+}
+div.radio-group div:last-child label {
+	-webkit-border-top-right-radius: 7px;
+	-webkit-border-bottom-right-radius: 7px;
+	-moz-border-radius-topright: 7px;
+	-moz-border-radius-bottomright: 7px;
+}
+div.radio-group input:checked+label {
+	color: #fff;
+	background: #C3C3C3;
+	background-image: -moz-linear-gradient(top, #C3C3C3, #DBDBDB);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#C3C3C3), to(#DBDBDB));
+	text-shadow: 0px 0px 0px #fff;
+}
+.tip{
+  width:25px;
+  height:25px;
+}
+
+#main-box{
+  width:938px;
+  border:1px solid #ccc;
+  border-radius:4px;
+  margin-bottom:40px;
+  background-color:#fff;
+  background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);/* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);/* FF3.6+ */
+}
+
+
+.content-box{
+  width:268px;  
+  height:200px;
+  border:1px solid #ccc;
+  border-radius:4px;
+  margin-left:32.5px;
+  margin-top:32px;
+  margin-bottom:32px;
+  float:left;
+  overflow:hidden;
+  background-color:#fff;
+}
+
+.content-box img{
+ width:268px;
+ height:200px;
+}
+
+
+  /* Sub-Left-Contents
+-------------------------------------------------- */
+#sub-left{
+  width:360px;
+  float:left;
+}
+
+
+.sub-head{
+  margin:0 auto;
+  padding:8px 13px;
+  border-top:1px solid #ccc;
+  border-left:1px solid #ccc;
+  border-right:1px solid #ccc;
+  border-top-right-radius:4px;
+  border-top-left-radius:4px;  
+  background-color:#F2F6F5;
+  background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);/* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);/* FF3.6+ */
+}
+
+
+/*Goal関連*/
+#goal-box{
+  width:344px;
+  padding: 20px 7px 20px 7px;
+  border:1px solid #ccc;
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius:4px;
+  background-color: #fff;
+}
+
+#my-goal{
+  /*background-color:#F2F6F5;*/
+}
+
+#my-goal h4{
+  text-align: center;
+}
+
+#my-goal .goal-list{
+  padding:8px 5px 5px 5px;
+}
+
+#my-goal .goal-list dt{
+  padding-bottom:7px;
+}
+
+#goal-border{
+  border-top:1px solid #fff;
+  margin-top:-15px;
+  margin-bottom:15px;
+}
+
+#my-goal .goal-name{
+  margin:0;
+  width:231px;
+  float:left;
+}
+
+#my-goal .goal-period{
+  margin:0;
+  width:100px;
+  text-align:center;
+  float:left;
+}
+
+
+/*グループメンバーの目標*/
+#friend-goal{
+  padding-top:15px;
+  border-top:1px solid #ccc;
+  /*overflow:scroll;*/
+}
+
+.fri-goal-list{
+  padding:0px 5px 8px 5px;
+}
+
+.fri-image{
+  width:30px;
+  height:30px;
+}
+
+.fri-image{
+  width: 40px;
+  height:40px;
+  float:left;
+}
+
+.fri-image img{
+  width: 32px;
+  height:32px;
+}
+
+.fri-goal-name{
+  width:193px;
+  float:left;
+}
+
+.fri-goal-period{
+  width:94px;
+  float:left;
+  margin-left:0px !important;
+}
+
+/*リアルタイム学習シェア*/
+#realtime-head{
+  margin-top: 40px;
+}
+
+#realtime-share{
+  width:344px;
+  padding:15px 7px 7px 7px;
+  border:1px solid #ccc; 
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius:4px;
+  background-color:#fff;
+}
+
+#sel-group{
+  border-bottom:1px solid #ccc;
+}
+
+#sel-group > p{
+  margin:0px;
+  padding:0px 10px 13px 10px;
+}
+
+#realtime-share h4{
+  text-align:center;
+  margin-bottom:7px;
+}
+
+#sel-group #gid{
+  margin-left:62px;
+  margin-bottom:20px;
+}
+
+#buttons{
+  padding:19px 0px 19px 11.5px;
+}
+
+#buttons .minishare{
+  margin-bottom:3px;
+}
+
+#buttons button{
+  width:160px;
+}
+
+
+  /* Sub-Right-Contents
+-------------------------------------------------- */
+#sub-right{
+  float:right;
+  width:558px;
+}
+
+.sub-head2{
+  background-color:#F2F6F5;
+  /*width:400px;*/
+  margin:0 auto;
+  padding:8px 13px;
+  border-top:1px solid #ccc;
+  border-left:1px solid #ccc;
+  border-right:1px solid #ccc;
+  border-top-left-radius:4px;
+  border-top-right-radius:4px;
+  background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);/* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);/* FF3.6+ */
+}
+
+.sub-head-image2{
+  float:left;
+}
+
+.sub-head-title2{
+  float:left;
+  margin-left:10px;
+  height:30px;
+  /*width:300px;*/
+}
+
+.sub-head-title2 h4{
+  line-height: 30px;
+}
+
+#sub-right #recent-act{
+  border:1px solid #ccc;
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius:4px;
+  background-color:#fff;
+}
+
+.sub-header{
+  /*color:#4065F6;*/
+}
+
+#log-wrap{
+  padding:15px;
+  width:528px;
+}
+
+.user-data{
+  width:100%;
+  border-bottom:1px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.user-data:last-child{
+  border-bottom:none;
+}
+
+.user-photo{
+  width:50px;
+  height:50px;
+  float:left;  
+}
+
+.log-data{
+  width:468px;
+  margin-left:10px;
+  float:right;
+}
+
+
+
+
+  /* Image Effect
+---------------------------------------------------*/
+.item {
+  overflow:hidden;   
+  position:relative;
+}
+ 
+.item .g_caption {
+  width:268px;
+  height:200px;
+  background:#000;
+  border-radius:3px;
+         
+  /* fix it at the bottom */
+  position:absolute;
+  left:0;
+  top:0;
+ 
+  /* hide it by default */
+  display:none;
+ 
+  /* opacity setting */
+  filter:alpha(opacity=80);    /* ie  */
+  -moz-opacity:0.8;    /* old mozilla browser like netscape  */
+  -khtml-opacity: 0.8;    /* for really really old safari */ 
+  opacity: 0.8;    /* css standard, currently it works in most modern browsers like firefox,  */ 
+}
+ 
+.item .g_caption a {
+  text-decoration:none;
+  color:#fff;
+  font-size:13px; 
+     
+  /* add spacing and make the whole row clickable*/
+  /*padding:5px;*/
+  margin-top:3px;
+  display:block;
+}
+
+.item .g_caption a:hover{
+  color:#0cc7dd;
+}
+ 
+.item .g_caption p {
+  margin-left:10px;
+  font-size:12px;
+  color:#bfbfbf;
+}
+
+
+.item img {
+  /* allow javascript moves the img position*/
+  position:absolute;
+}
+
+.g_caption h3{  
+  margin: 10px 0 10px 0px;
+  font-size: 20px;
+  /*padding: 0 0 0 5px;*/
+  color:#fff;
+  text-align:center;
+}
+
+
+/* tooltip */
+div#title-tip {
+    margin: 0 1em 0 0;
+    border: solid #ccc 1px;
+    border-radius:4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: .5em .5em;
+    background: #000;
+    opacity: .8;
+    filter: alpha(opacity=80);
+    font-size: 100%;
+    font-weight: bold;
+    color:yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

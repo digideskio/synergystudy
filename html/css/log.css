@@ -1,0 +1,123 @@
+
+
+#wrapper{
+  width:938px;
+  border:1px solid #ccc;
+  background-color:#fff;
+  border-radius:6px;
+  padding:20px 0;
+  overflow:hidden;
+}
+
+
+
+  /* Main Contents
+-------------------------------------------------- */
+#main{
+  width: 580px;
+  float:right;
+  overflow: hidden;
+}
+
+#main h2{
+  height:36px;
+  margin:0 25px 20px 0;
+  border-bottom: 2px solid #ccc;
+  color:#4065F6;
+}
+
+.control-label{
+  text-align: left !important;
+  padding-top:0 !important;
+  color:#696969;
+  font-weight: bold;
+}
+
+.tip{
+  width:25px;
+  height:25px;
+}
+
+.total{
+  text-align: right;
+  padding-right:10px;
+}
+
+.errors_display p{
+  color:red;
+}
+
+.errors_display span{
+  color:red;
+}
+
+  /* Sub Contents
+-------------------------------------------------- */
+#sub{
+  width: 358px;
+  float:left;
+  overflow: hidden;
+}
+
+#calendar{
+  margin-top:56px;/*h2の高さ+h2の下マージン*/
+}
+
+  /* Others
+-------------------------------------------------- */
+
+div.radio-group div {
+	position: relative;
+}
+
+div.radio-group input {
+	position: absolute;
+	left: 0px;
+	outline:none;
+}
+
+.error{
+  color:red;
+}
+
+
+  /* ラジオボタン
+-------------------------------------------------- */
+div.radio-group {
+/*margin-bottom: 100px;*/
+}
+div.radio-group input {
+	display: none;
+}
+div.radio-group label {
+	cursor: pointer;
+	padding: 5px 10px;
+	float: left;
+	border: solid 1px #aaa;
+	margin-left: -1px;
+	background: #eee;
+	background-image: -moz-linear-gradient(top, #F6F6F6, #ccc);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#F6F6F6), to(#ccc));
+	-moz-box-shadow: 2px 2px 6px #ddd;
+	-webkit-box-shadow: 2px 2px 6px #ddd;
+	text-shadow: 1px 1px 0px #fff;
+}
+div.radio-group div:first-child label {
+	-webkit-border-top-left-radius: 7px;
+	-webkit-border-bottom-left-radius: 7px;
+	-moz-border-radius-topleft: 7px;
+	-moz-border-radius-bottomleft: 7px;
+}
+div.radio-group div:last-child label {
+	-webkit-border-top-right-radius: 7px;
+	-webkit-border-bottom-right-radius: 7px;
+	-moz-border-radius-topright: 7px;
+	-moz-border-radius-bottomright: 7px;
+}
+div.radio-group input:checked+label {
+	color: #fff;
+	background: #C3C3C3;
+	background-image: -moz-linear-gradient(top, #C3C3C3, #DBDBDB);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#C3C3C3), to(#DBDBDB));
+	text-shadow: 0px 0px 0px #fff;
+}
